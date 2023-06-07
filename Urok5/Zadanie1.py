@@ -13,4 +13,4 @@ def degree(A, B):
     if B == 0:
         return 1
     return A * degree(A, B - 1)
-print('Результат = ', degree(A, B))
+print(f'Результат = ', degree(A, B))
