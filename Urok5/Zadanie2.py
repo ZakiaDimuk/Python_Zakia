@@ -13,4 +13,4 @@ def sum(a, b):
         return b
     else:
         return sum(a - 1, b + 1)
-print(sum(a, b))
+print(f'Сумма = ',sum(a, b))
